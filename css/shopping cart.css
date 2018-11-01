@@ -1,0 +1,110 @@
+*{padding: 0;margin: 0}
+a{text-decoration: none;color: #666;}
+a:hover{text-decoration: underline;color: red;}
+/*body{background-color: #f7f7f7;}*/
+/*顶部 (roof)*/
+.wrapper-roof{background: #f5f5f5;}
+.roof-content{width: 1100px;height: 30px;margin: 0 auto;font-size: 12px;line-height: 30px;}
+.roof-content-left{float: left;}
+.roof-content-left span{padding-right: 20px;}
+.roof-content-right{float: right;}
+.roof-content-right ul{float: left;}
+.roof-content-right li{float: left;list-style: none;padding: 0 10px;position: relative;display:inline-block;}
+.roof-content-left-login>a,.roof-content-left-register>a{color: blue;}
+.roof-content-left-register{cursor: pointer;}
+.roof-content-left-register:hover{color: red;}
+.roof-content-left-login span{color: #666;padding-right: 0px;} 
+.roof-buyer-center{padding-right: 10px;width: 58px;}
+.concerned{width: 80px;border:1PX solid #ededed;border-top:none;position: absolute;left:0px;z-index: 999;background: #fff;padding:0 20px 0 10px;display: none;color: #666;}
+.roof-buyer-center-ico{display:inline-block;width: 7px;height: 4px;background: yellow;position: absolute;right: 8px;top: 12px;background: url(../img/topbar_ico.png) no-repeat;background-position: 0px -45px;}
+.iphone-ico{width: 20px;height: 30px;background: yellow;position: absolute;background: url(../img/topbar_ico.png) no-repeat;background-position: -4px 0px;}
+.roof-phone-mall-ico{display:inline-block;width: 7px;height: 4px;background: yellow;position: absolute;right: 18px;top: 12px;background: url(../img/topbar_ico.png) no-repeat;background-position: 0px -45px;}
+.roof-phone-mall{padding-left: 20px;padding-right: 20px;}
+.wrapper-roof-phone-mall-img{width: 160px;height: 160px;border:1PX solid #ededed;border-top:none;position: absolute;left: 0px;top: 30px;background: #fff;z-index: 999;display: none;}
+.roof-phone-mall-img{width: 120px;height: 120px;margin:20px;}
+.roof-contact-service{padding-right: 20px;}
+.roof-contact-service-ico{display:inline-block;width: 7px;height: 4px;background: yellow;position: absolute;right: 18px;top: 12px;background: url(../img/topbar_ico.png) no-repeat;background-position: 0px -45px;}
+.roof-contact-service-text{width: 86px;height: 30px;border:1PX solid #ededed;border-top:none;position: absolute;left: -24px;top: 30px;background: #fff;z-index: 999;padding: 0px 5px 0px 20px ;display: none;}
+
+
+
+.roof-buyer-center-ico{display:inline-block;width: 7px;height: 4px;background: yellow;position: absolute;right: 8px;top: 12px;background: url(../img/topbar_ico.png) no-repeat;background-position: 0px -45px;}
+.iphone-ico{width: 20px;height: 30px;background: yellow;position: absolute;background: url(../img/topbar_ico.png) no-repeat;background-position: -4px 0px;}
+.roof-phone-mall-ico{display:inline-block;width: 7px;height: 4px;background: yellow;position: absolute;right: 18px;top: 12px;background: url(../img/topbar_ico.png) no-repeat;background-position: 0px -45px;}
+.roof-phone-mall{padding-left: 20px;padding-right: 20px;}
+.wrapper-roof-phone-mall-img{width: 160px;height: 160px;border:1PX solid #ededed;border-top:none;position: absolute;left: 0px;top: 30px;background: #fff;z-index: 999;display: none;}
+.roof-phone-mall-img{width: 120px;height: 120px;margin:20px;}
+.roof-contact-service{padding-right: 20px;}
+.roof-contact-service-ico{display:inline-block;width: 7px;height: 4px;background: yellow;position: absolute;right: 18px;top: 12px;background: url(../img/topbar_ico.png) no-repeat;background-position: 0px -45px;}
+.roof-contact-service-text{width: 86px;height: 30px;border:1PX solid #ededed;border-top:none;position: absolute;left: -24px;top: 30px;background: #fff;z-index: 999;padding: 0px 5px 0px 20px ;display: none;}
+
+/*头部(head)*/
+.shoppingCart-head-content{width: 1100px;height: 60px;margin: 0 auto;margin-top: 30px;margin-bottom: 30px;}
+.shoppingCart-head-logo{width: 130px;height: 60px;float: left;}
+.shoppingCart-head-right ul{float: right;}
+.shoppingCart-head-right ul li{height: 40px;list-style: none;float: left;margin-left: 20px;margin-top:10px;padding: 0px 10px;background: #e6e6e6;line-height: 40px;text-align: center;}
+.shoppingCart-head-right ul li:nth-child(1){background: #e02d2d;color: white;}
+/*购物车没有商品的时候*/
+.no-goods{width: 1100px;height: 95px;margin: 0 auto;margin-top: 80px;/*display: none;*/}
+.no-goods-ico{width: 84px;height: 95px;margin-left:50px;float: left;background: url(../img/shopcar.png) no-repeat;background-position: 0px 0px;margin-right: 20px;}
+.no-goods-text {width: 320px;height: 95px;float: left;}
+.no-goods-text h4{width: 320px;height: 25px;margin: 10px 0px;}
+.no-goods-text a{color: blue;}
+table{width: 100%;overflow: hidden;}
+thead{display:block;width: 1100px;height: 40px;background: #f7f7f7;margin: 0 auto;border-top: 2px solid red;line-height: 35px;}
+/*购物车有商品的时候*/
+/*购物车的内容*/
+.shoppingCart-content{display: none;}
+/* 表格顶部的总计 top-total-content*/
+.top-total-content{width: 1100px;height: 40px;margin: 0 auto;}
+.top-total-content-right{float: right;}
+.top-total-content-right-em{margin-right: 30px;}
+.top-total-content-right span{color: red;}
+.top-total-content-right a{display:inline-block;width: 60px;height: 25px;color: white;background: orange;text-align: center;line-height: 25px;border-radius: 10%;margin-left: 5px;}
+/* 表格低部的总计 bottom-total-content*/
+.bottom-total-content{width: 1100px;height: 40px;margin: 0 auto;font-size: 20px;}
+.bottom-total-content-right{float: right;}
+.bottom-total-content-right-em{margin-right: 30px;}
+.bottom-total-content-right span{color: red;}
+.bottom-total-content-right a{display:inline-block;width: 80px;height: 40px;color: white;background: orange;text-align: center;line-height: 40px;border-radius: 10%;margin-left: 5px;}
+
+thead tr td{display:block;width: 145px;height: 40px;float: left;text-align: center;}
+thead tr td:nth-child(1){display:block;width: 60px;height: 40px;float: left;}
+thead tr td:nth-child(2){display:block;width: 430px;height: 40px;float: left;}
+.goods-tr{display:block;width: 1100px;height: 130px;padding: 10px 10px;margin: 0 auto;box-sizing: border-box;margin-top: 10px;margin-bottom: 10px;border: 1px solid #e3e3e3;}
+.goods-tr-oneTd{display:block;width: 480px;height: 110px;float: left;}
+.goods-tr-oneTd input{float: left;margin-top: 45px;width: 20px;height: 20px;}
+.goods-img{width: 80px;height: 80px;background: brown;margin-top: 15px;float: left;margin-left: 10px;margin-right: 10px;}
+.goods-img img{width: 80px;height: 80px;}
+.goods-text{width: 360px;float: left;}
+.goods-text h3 a{color: #134ba0;cursor: pointer;font-weight: normal;font-size: 16px;}
+.goods-text span{color: #666;}
+.goods-color{margin: 5px 0px;}
+.goods-tr-twoTd{float: left;display:block;width: 145px;height: 110px;text-align: center;line-height: 110px;font-size: 20px;}
+.goods-tr-threeTd{float: left;display:block;width: 145px;height: 110px;text-align: center;line-height: 110px;}
+.goods-tr-threeTd *{float: left;}
+.wrapper-quantity{width: 145px;height: 30px;margin-top: 40px;}
+.wrapper-quantity input{display: inline-block;width: 45PX;height: 26PX;text-align: center;font-size: 20PX;}
+.minus{display: inline-block;width: 25PX;height: 30PX;font-size: 30PX;line-height: 0PX;margin-left: 20PX;}
+.add{display: inline-block;width: 30PX;height: 30PX;font-size: 30PX;line-height: 0PX;}
+.goods-tr-fourTd{float: left;display:block;width: 145px;height: 110px;text-align: center;line-height: 110px;font-size: 20px;color: red;}
+.goods-tr-fiveTd{float: left;display:block;width: 145px;height: 110px;text-align: center;line-height: 110px;font-size: 20px;cursor: pointer;}
+
+
+/*购物车页面底部*/
+.wrapper-footer{width: 1100px;height: 140px;margin: 0 auto;border-top: 1px solid #e3e3e3;margin-top: 50px;}
+.shoppingCart-footer-links{width: 1100px;height: 20px;text-align: center;color: #ccc;margin-top: 20px;}
+.shoppingCart-footer-links a{display: inline-block;margin: 0px 15px;color: blue;}
+.shoppingCart-footer-links a:hover{color: orange;}
+.shoppingCart-footer-copyright{width: 1100px;height: 20px;margin: 0 auto;text-align: center;margin: 15px 0px 20px 0px;}
+.shoppingCart-footer-copyright a{color: blue;}
+.shoppingCart-footer-copyright a:hover{color: orange;}
+.shoppingCart-footer-img{width: 1100px;height: 40px;margin: 0 auto;text-align: center;}
+.shoppingCart-footer-img a{display: inline-block;width: 100px;height: 40px;cursor: pointer;}
+.shoppingCart-footer-img img{width: 100px;height: 40px;}
+
+
+
+
+
+

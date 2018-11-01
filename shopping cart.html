@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/shopping cart.css"/>
+	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/tools.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+		<!--顶部 (roof) -->
+		<div class="wrapper-roof">
+			<div class="roof-content">
+				<div class="roof-content-left">
+					<span class="roof-content-left-homepage">
+						<a href="homepage.html">商城首页</a>
+					</span>
+					<span class="roof-content-left-login">
+						<span>Hi~欢迎来到Z商城,请</span>
+						<a href="login.html" class="homepageLogin">登录</a>
+					</span>
+					<span class="roof-content-left-register">
+						<a href="register.html" class="homepageRegister">免费注册</a>
+					</span>
+				</div>
+				<div class="roof-content-right">
+					<ul>
+						<li>
+							<a href="">我的订单</a>
+						</li>
+						<li>
+							<a href="" class="roof-buyer-center">买家中心<i class="roof-buyer-center-ico"></i></a>
+							<div class="concerned ">
+								<a>关注的店铺</a><span style="color: red;"> 30</span>
+								<a>关注的商品</a><span style="color: red;"> 48</span>
+							</div>
+						</li>
+						<li>
+							<a href="" >购物车<span class="shoppingCart-Pcount">0</span>件</a>
+						</li>
+						<li>
+							<a href="">帮助中心</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<div class="iphone-ico"></div>
+							<a href="" class="roof-phone-mall"><i class="roof-phone-mall-ico"></i>手机商城</a>
+							<div class="wrapper-roof-phone-mall-img">
+								<img class="roof-phone-mall-img" src="img/shop_wechat.png"/>
+							</div>
+						</li>
+						<li>
+							<a href="">中关村在线</a>
+						</li>
+						<li>
+							<a href="">招商合作</a>
+						</li>
+						<li>
+							<a href="" class="roof-contact-service">联系客服<i class="roof-contact-service-ico"></i></a>
+							<p class="roof-contact-service-text">400-688-1999</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--头部-->	
+		<!--logo-->
+		<div class="wrapper-head">
+			<div class="shoppingCart-head-content">
+				<div class="shoppingCart-head-logo">
+					<img src="img/logo_130x60.png"/>
+				</div>
+				<div class="shoppingCart-head-right">
+					<ul>
+						<li>加入购物车</li>
+						<li>下订单</li>
+						<li>去付款</li>
+						<li>确认收货</li>
+						<li>评价</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--购物车没有商品的时候-->
+		<div class="no-goods">
+			<div class="no-goods-ico">
+				
+			</div>
+			<div class="no-goods-text">
+				<h4>您的购物车里还没有商品，您可以：</h4>
+				去 <span><a href="homepage.html">挑选商品</a></span>
+			</div>
+		</div>
+			
+		<!--购物车的内容-->
+		<div class="shoppingCart-content">
+			<!--表格顶部的总计-->
+			<div class="top-total-content">
+				<div class="top-total-content-right">
+					<em class="top-total-content-right-em">商品总数：<span class="goods-top-total">0</span></em>
+					<i>总计：</i><span>¥ </span><span class="top-total">0</span>
+					<a >去结算</a>
+				</div>
+			</div>
+			
+			<table id="tab">
+				<thead>
+					<tr>
+						<td><input type="checkbox" class="allCheck"/>全选</td>
+						<td>所选商品</td>
+						<td>单价（元）</td>
+						<td>数量</td>
+						<td>小计（元）</td>
+						<td>操作</td>
+					</tr>
+				</thead>
+				<tbody class="table-content">
+				<!--<tr class="goods-tr">
+					<td class="goods-tr-oneTd">
+						<input type="checkbox" class="checks" value="" />
+						<div class="goods-img">
+							<img src="img/compressed-img.jpg"/>
+						</div>
+						<div class="goods-text">
+							<h3><a >【吃鸡游戏本】华硕 FX53VD7300（4GB/1TB/2G独显）15.6英寸笔记本</a></h3>
+							<div class="goods-color">
+								<span>颜色: </span><span>4G内存 1TB硬盘 GTX1050</span><br />
+							</div>
+							<span>套装: </span><span>官方标配</span>
+						</div>
+					</td>		
+					<td class="goods-tr-twoTd">4299</td>
+					<td class="goods-tr-threeTd">
+						<div class="wrapper-quantity">
+							<button class="minus">-</button>
+							<input type="text" name="" class="goods-quantity" value="1" />
+							<button class="add">+</button>
+						</div>
+					</td>
+					<td class="goods-tr-fourTd">4299</td>
+					<td class="goods-tr-fiveTd"><span class="goods-tr-fiveTd-span">删除</span></td>
+				</tr>
+				<tr class="goods-tr">
+					<td class="goods-tr-oneTd">
+						<input type="checkbox" name="" id="" value="" />
+						<div class="goods-img">
+							<img src="img/compressed-img.jpg"/>
+						</div>
+						<div class="goods-text">
+							<h3><a >【吃鸡游戏本】华硕 FX53VD7300（4GB/1TB/2G独显）15.6英寸笔记本</a></h3>
+							<div class="goods-color">
+								<span>颜色: </span><span>4G内存 1TB硬盘 GTX1050</span><br />
+							</div>
+							<span>套装: </span><span>官方标配</span>
+						</div>
+					</td>		
+					<td class="goods-tr-twoTd">4299</td>
+					<td class="goods-tr-threeTd">
+						<div class="wrapper-quantity">
+							<button class="minus">-</button>
+							<input type="text" name="" class="goods-quantity" value="1" />
+							<button class="add">+</button>
+						</div>
+					</td>
+					<td class="goods-tr-fourTd">4299</td>
+					<td class="goods-tr-fiveTd"><span class="goods-tr-fiveTd-span">删除</span></td>
+				</tr>
+				</tbody>-->
+			</table>
+			<!--表格低部的总计-->
+			<div class="bottom-total-content">
+				<div class="bottom-total-content-right">
+					<em class="bottom-total-content-right-em">商品总数：<span class="goods-bottom-total">0</span></em>
+					<i>总计：</i><span>¥ </span><span class="bottom-total">0</span>
+					<a >去结算</a>
+				</div>
+			</div>
+		</div>
+		<!--购物车页面底部-->
+		<div class="wrapper-footer">
+			<div class="shoppingCart-footer-links">
+				<a href="">关于商城</a>|
+				<a href="">营销中心</a>|
+				<a href="">服务中心</a>|
+				<a href="">发展历程</a>|
+				<a href="">媒体报道</a>		
+			</div>
+			<div class="shoppingCart-footer-copyright">
+				©2018中关村在线 版权所有. 京ICP备09041801号-182 <a href="">京ICP证010391号</a>
+			</div>
+			<div class="shoppingCart-footer-img">
+				<a href=""><img src="img/shoppingCart-footer-img1.png"/></a>
+				<a href=""><img src="img/shoppingCart-footer-img2.png"/></a>
+				<a href=""><img src="img/shoppingCart-footer-img3.png"/></a>
+			</div>
+		</div>
+		
+		
+	</body>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/shopping cart.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		
+		
+		
+		
+		
+		
+	</script>
+	
+</html>

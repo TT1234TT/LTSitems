@@ -1,0 +1,322 @@
+*{padding: 0;margin: 0;}
+body{background-color: #f7f7f7;position: relative;}
+
+/*导航(nav)(全部分类)*/
+.wrapper-nav{background: white;}
+.nav-content{width: 1100px;height: 50px;margin: 0 auto;font-size: 25px;line-height: 50px;padding-top: 10px;}
+.nav-left{width: 180px;height: 50px;background: #ec3639;float: left;color: white;text-align: center;position: relative;}
+.nav-left-ico{display: inline-block;width: 12px;height: 10px;position: absolute;left:25px;top:20px;background: url(../img/head.png) no-repeat;background-position: 0px -154px;}
+
+/*全部分类下的分类(category)*/
+.nav-category-body{width: 180px;height: 400px;background-color: #454545;z-index: 2;position: absolute;}
+.nav-category-body li{list-style: none;border-top: 1px solid gainsboro;position: relative;background-color: #454545;}
+.nav-category-body a{color: white;font-size: 20px;}
+.nav-category-body a:hover{color: red;}
+.iphone-ico-one{display:inline-block;width: 30px;height: 25px;background: yellow;position: absolute;left: 38px;top: 10px;background: url(../img/head.png) no-repeat;background-position: 8px 7px;}
+.pc-ico-one{display:inline-block;width: 30px;height: 20px;background: yellow;position: absolute;left: 38px;top: 17px;background: url(../img/head.png) no-repeat;background-position: 4px -18px;}
+.DIY-ico-one{display:inline-block;width: 30px;height: 20px;background: yellow;position: absolute;left: 38px;top: 17px;background: url(../img/head.png) no-repeat;background-position: 8px -132px;}
+.DV-ico-one{display:inline-block;width: 30px;height: 20px;background: yellow;position: absolute;left: 38px;top: 17px;background: url(../img/head.png) no-repeat;background-position: 6px -38px;}
+.pci-ico-one{display:inline-block;width: 30px;height: 26px;background: yellow;position: absolute;left: 38px;top: 15px;background: url(../img/head.png) no-repeat;background-position: 11px -62px;}
+.smart-ico-one{display:inline-block;width: 30px;height: 20px;background: yellow;position: absolute;left: 38px;top: 17px;background: url(../img/head.png) no-repeat;background-position: 8px -89px;}
+.ico-two{display:inline-block;width: 10px;height: 10px;background: yellow;position: absolute;right: 15px;top: 22px;background: url(../img/head.png) no-repeat;background-position: -44px -154px;}
+.nav-right{height: 50px;float: left;margin-left: 30px;}
+.nav-right li{list-style: none;float: left;margin-right: 50px;}
+
+/*全部分类下的分类(category)鼠标进入之后显示的下拉菜单*/
+.iphone-dropdown{width: 620px;height: 380px;background: #fff;position: absolute;left: 180px;top: 50px;z-index: 2;border: 1px solid gainsboro;border-left: none;padding: 0px 30px 20px 30px;display: none;}
+.iphone-dropdown-list{width: 620px;height: 70px;background: white;text-align: left;line-height: 30px;}
+.iphone-dropdown-list a{font-size: 16px;display: inline-block;margin-right: 20px;}
+.iphone-dropdown-banner{width: 620px;height: 290px;background: yellowgreen;}
+.iphone-dropdown-banner a{display: inline-block;width: 620px;height: 290px;}
+.pc-dropdown{width: 620px;height: 380px;background: #fff;position: absolute;left: 180px;top: 50px;z-index: 2;border: 1px solid gainsboro;border-left: none;padding: 0px 30px 20px 30px;display: none;}
+.pc-dropdown-list{width: 620px;height: 70px;background: white;text-align: left;line-height: 30px;}
+.pc-dropdown-list a{font-size: 16px;display: inline-block;margin-right: 20px;}
+.pc-dropdown-banner{width: 620px;height: 290px;background: yellowgreen;}
+.pc-dropdown-banner a{display: inline-block;width: 620px;height: 290px;}
+.DIY-dropdown{width: 620px;height: 380px;background: #fff;position: absolute;left: 180px;top: 50px;z-index: 2;border: 1px solid gainsboro;border-left: none;padding: 0px 30px 20px 30px;display: none;}
+.DIY-dropdown-list{width: 620px;height: 70px;background: white;text-align: left;line-height: 30px;}
+.DIY-dropdown-list a{font-size: 16px;display: inline-block;margin-right: 20px;}
+.DIY-dropdown-banner{width: 620px;height: 290px;background: yellowgreen;}
+.DIY-dropdown-banner a{display: inline-block;width: 620px;height: 290px;}
+.DV-dropdown{width: 620px;height: 380px;background: #fff;position: absolute;left: 180px;top: 50px;z-index: 2;border: 1px solid gainsboro;border-left: none;padding: 0px 30px 20px 30px;display: none;}
+.DV-dropdown-list{width: 620px;height: 70px;background: white;text-align: left;line-height: 30px;}
+.DV-dropdown-list a{font-size: 16px;display: inline-block;margin-right: 20px;}
+.DV-dropdown-banner{width: 620px;height: 290px;background: yellowgreen;}
+.DV-dropdown-banner a{display: inline-block;width: 620px;height: 290px;}
+.pci-dropdown{width: 620px;height: 380px;background: #fff;position: absolute;left: 180px;top: 50px;z-index: 2;border: 1px solid gainsboro;border-left: none;padding: 0px 30px 20px 30px;display: none;}
+.pci-dropdown-list{width: 620px;height: 70px;background: white;text-align: left;line-height: 30px;}
+.pci-dropdown-list a{font-size: 16px;display: inline-block;margin-right: 20px;}
+.pci-dropdown-banner{width: 620px;height: 290px;background: yellowgreen;}
+.pci-dropdown-banner a{display: inline-block;width: 620px;height: 290px;}
+.smart-dropdown{width: 620px;height: 380px;background: #fff;position: absolute;left: 180px;top: 50px;z-index: 2;border: 1px solid gainsboro;border-left: none;padding: 0px 30px 20px 30px;display: none;}
+.smart-dropdown-list{width: 620px;height: 70px;background: white;text-align: left;line-height: 30px;}
+.smart-dropdown-list a{font-size: 16px;display: inline-block;margin-right: 20px;}
+.smart-dropdown-banner{width: 620px;height: 290px;background: yellowgreen;}
+.smart-dropdown-banner a{display: inline-block;width: 620px;height: 290px;}
+
+/*导航下的轮播图(nav-slideshow)*/
+.wrapper-nav-slideshow{width: 100%;height: 400px;}
+.nav-slideshow-content{width: 100%;height: 400px;overflow: hidden;position: relative;margin: 0 auto;}
+.nav-slideshow img{width: 100%;height: 400px;margin: 0 auto;}
+.nav-slideshow-skip{width: 1300px;position: absolute;top: 40%;left: 50%;margin-left:-650px;}
+.nav-slideshow-previous{color: white;font-family: "黑体";font-size: 80px;float: left;margin-left: 40px;cursor: pointer;background: #000000;opacity: 0;padding: 0px 10px;}
+.nav-slideshow-next{color: white;font-family: "黑体";font-size: 80px;float: left;margin-left: 1100PX;cursor: pointer;background: #000000;opacity: 0;padding: 0px 10px;}
+.nav-slideshow-ul{position: absolute;bottom: 30px;left: 45%;}
+.nav-slideshow-ul li{list-style: none;float: left;width: 15px;height: 15px;border-radius: 50%;background: white;margin-left: 20px;cursor: pointer;}
+
+/*团购(groupPurchase)*/
+/*团购的头部(groupPurchase-header)*/
+.wrapper-groupPurchase-header{width: 100%;}
+.groupPurchase-header{width: 1100px;height: 40px;padding: 40px 0px 10px 0px;margin: 0 auto;/*background: yellowgreen;*/}
+.groupPurchase-header-ico{width: 40px;height: 40px;float: left;background: url(../img/zol-home-icons.png) no-repeat;background-position: -137px 3px;}
+.groupPurchase-header-text{font-size: 25px;font-weight: 400;float: left;}
+.groupPurchase-header span{color: #999;line-height: 40px;margin-left: 10px;}
+.groupPurchase-header-right{float: right;width: 53px;height: 21px;margin-top: 10px;}
+.groupPurchase-header-right a{float: left;}
+.groupPurchase-header-ico-two{float: right;width: 20px;height: 20px;background: silver;background: url(../img/zol-home-icons.png) no-repeat;background-position: 100% -284px;}
+
+/*团购的内容(groupPurchase-content)*/
+.groupPurchase-content{width: 1100px;height: 170px;margin: 0 auto;}
+.groupPurchase-content-oneUl li{list-style: none;float: left;width: 364px;height: 150px;padding: 15px;box-sizing: border-box;position: relative;overflow: hidden;}
+.groupPurchase-content-oneUl>li:nth-child(1){background: #fff6dd;}
+.groupPurchase-content-oneUl>li:nth-child(2){background: #ffe5e5;margin-left: 4px;}
+.groupPurchase-content-oneUl>li:nth-child(3){background: #e3f9ff;margin-left: 4px;}
+.groupPurchase-content-ware-introduce{float: left;}
+.groupPurchase-content-oneUl h4{width: 200px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.groupPurchase-content-oneUl li p{color: #999;height: 25px;line-height: 25px;}
+.groupPurchase-content-ware-price{color: #f33;font-size: 14px;margin: 10px 0px;}
+.groupPurchase-content-ware-price span{font-size: 22px;}
+.groupPurchase-content-ware-time span{color: #f33;}
+.groupPurchase-content-ware-pic{width: 120px;height: 120px;float: right;background: cadetblue;}
+.groupPurchase-content-oneUl img{width: 120px;height: 120px;}
+.groupPurchase-content-ware-mask{background: rgba(51,51,51,.89);width: 364px;height: 150px;padding: 10px 0px 0px 10px;box-sizing: border-box;position: absolute;left: 0px;top: 150px;transition: all 0.6s;}
+.groupPurchase-content-ware-mask-left{width: 120px;height: 120px;float: left;}
+.groupPurchase-content-ware-mask-left-pic{width: 80px;height: 80px;margin: 0 auto;border-radius: 50%;}
+.groupPurchase-content-ware-mask-left-pic img{width: 80px;height: 80px;border-radius: 50%;}
+.groupPurchase-content-ware-mask-left p{font-size: 12px;margin-top: 10px;}
+.groupPurchase-content-ware-mask-left span{color: white;}
+.groupPurchase-content-ware-mask-left a{margin-left: 5px;margin-right: 5px;color: white;}
+.groupPurchase-content-ware-mask-right{width: 200px;height: 130px;margin-left: 20px;float: left;color: white;}
+.groupPurchase-content-ware-mask-right div{margin: 8px 0px;font-size: 14px;}
+.groupPurchase-content-ware-mask-right h4{font-size:18px;width: 200px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-weight: 400;}
+.groupPurchase-content-ware-mask-right-groupPrice span{color: #f33;}
+.groupPurchase-content-ware-mask-right a{color: white;background: #f33;display: inline-block;width:70px;height: 30px;text-align: center;line-height: 30px;cursor: pointer;}
+
+/*领券中心(ticket)*/
+.wrapper-ticket{width: 100%;}
+.ticket-content{width: 1100px;height: 102px;margin: 0 auto;padding-top: 30px;}
+.ticket-left{width: 148px;height: 92px;background: url(../img/coupon-all-bg.png) no-repeat;color: white;padding:10px 0px 0px 20px;float: left;}
+.ticket-left p{font-size: 14px;color: #fcc;}
+.ticket-left a{color: white;}
+.ticket-right li{list-style: none;float: left;width: 207px;height: 92px;padding:10px 5px 0px 5px;background: white;}
+.ticket-right-li-top{width: 209px;height: 62px;}
+.ticket-right-yuan{width: 70px;height: 62px;float: left;font-size: 32px;transform: skewX(-15deg);color: #f66;}
+.ticket-right-name{width: 130px;height: 62px;float: left;}
+.ticket-right-name h5{color: #f66;font-size: 14px;}
+.ticket-right-name p{color: #999;}
+.ticket-right-li-bottom {text-align: center;}
+.ticket-right-li-bottom a{color: #f66;cursor: pointer;}
+.ticket-ico{width: 16px;height: 102px;background: #3CCBBC;float: left;background: url(../img/zol-home-icons.png) no-repeat;background-position: -68px 0px;}
+
+/*Z-智选(pp)*/
+/*Z智选的头部(pp-header)*/
+.wrapper-pp-header{width: 100%;}
+.pp-header{width: 1100px;height: 40px;padding: 40px 0px 10px 0px;margin: 0 auto;}
+.pp-header-ico{width: 40px;height: 40px;float: left;background: url(../img/zol-home-icons.png) no-repeat;background-position: -133px -347px;}
+.pp-header-text{font-size: 25px;font-weight: 400;float: left;}
+
+/*Z智选的内容(pp-content)*/
+.pp-content{width: 1080px;height: 630px;padding: 10px;background: white;margin: 0 auto;}
+.pp-content-one{width: 1080px;height: 250px;background: #0000FF;}
+.pp-content-one-left{width: 720px;height: 250px;background: yellow;float: left;}
+.pp-content-one-left ul{float: left;}
+.pp-content-one-left li{list-style:none;width: 100px;height: 49px;background: #f7f7f7;color: black;line-height: 60px;text-align: center;border-top: 1px solid #fff;cursor: pointer;}
+.pp-content-one-left-pic{width: 620px;height: 250px;float: left;overflow: hidden;}
+.pp-content-one-left-pic a{display: block;width: 620px;height: 250px;}
+.pp-content-one-left-pic img{width: 620px;height: 250px;}
+.pp-content-one-right{width: 360px;height: 250px;float: right;overflow: hidden;}
+.pp-content-one-right a{display:block;width: 180px;height: 3250px;float: right;}
+.pp-content-one-right img{width: 180px;height: 250px;float: right;}
+.pp-content-two{width: 1080px;height: 180px;background: sandybrown;}
+.pp-content-two-left{width: 720px;height: 180px;float: left;}
+.pp-content-two-left li{width: 180px;height: 180px;list-style:none;float: left;position: relative;overflow: hidden;}
+.pp-content-two-left img{width: 180px;height: 180px;}
+.pp-content-two-left-mask{width: 178px;height: 180px;position: absolute;top: 140px;background: rgba(0,0,0,.5);z-index: 2;text-align: center;color: white;transition: 0.6s;}
+.pp-content-two-left-pic1-btn{background: #ce1a1b;width: 80px;height: 30px;margin: 0 auto;line-height: 30px;}
+.pp-content-two-left-mask a{color: white;}
+.pp-content-two-left-mask div{margin-top: 10px;}
+.pp-content-two-right{width: 360px;height: 180px;float: right;overflow: hidden;}
+.pp-content-two-right a{display:block;width: 360px;height: 180px;}
+.pp-content-two-right img{width: 360px;height: 180px;}
+.pp-content-three{width: 1080px;height: 100px;background: seagreen;}
+.pp-content-three img{width: 1080px;height: 100px;}
+.pp-content-four{width: 1080px;height: 100px;background: coral;}
+.pp-content-four img{width: 1080px;height: 100px;}
+
+/*品牌精选(brand)*/
+/*品牌精选的头部(brand-header)*/
+.wrapper-brand-header{width: 100%;}
+.brand-header{width: 1100px;height: 40px;padding: 40px 0px 10px 0px;margin: 0 auto;}
+.brand-header-ico{width: 40px;height: 40px;float: left;background: url(../img/zol-home-icons.png) no-repeat;background-position: -135px -127px;}
+.brand-header-text{font-size: 25px;font-weight: 400;float: left;}
+.brand-header span{color: #999;line-height: 40px;margin-left: 10px;}
+
+/*品牌精选的内容(brand-content)*/
+.brand-content{width: 1100px;height: 350px;margin: 0 auto;}
+.brand-content li{margin-left: 10px;background: #fff;width: 210px;height: 350px;float: left;list-style: none;box-sizing: border-box;text-align: center;}
+.brand-content-one img{width: 210px;height:350px;}
+.brand-content-item{padding: 20px 5px;}
+.brand-content-item-img{width: 200px;height:200px;}
+.brand-content-item-img img{width: 200px;height:200px;cursor: pointer;}
+.brand-content-item-img a{display:inline-block;width: 200px;height:200px;}
+.brand-content-item p{height: 30px;}
+.brand-content-item-name{margin-top: 30px;}	
+.brand-content-item-name a{color: #333;}
+.brand-content-item-price{color: #f33;}
+
+/*电子竞技(eSports)*/
+/*电子竞技的头部(eSports-header)*/
+.wrapper-eSports-header{width: 100%;}
+.eSports-header{width: 1100px;height: 40px;padding: 40px 0px 10px 0px;margin: 0 auto;}
+.eSports-header-ico{width: 40px;height: 40px;float: left;background: url(../img/zol-home-icons.png) no-repeat;background-position: -135px -167px;}
+.eSports-header-text{font-size: 25px;font-weight: 400;float: left;}
+.eSports-header-right{float: right;width: 53px;height: 21px;margin-top: 10px;}
+.eSports-header-right a{float: left;}
+.eSports-header-ico-two{float: right;width: 20px;height: 20px;background: silver;background: url(../img/zol-home-icons.png) no-repeat;background-position: 100% -284px;}
+
+/*电子竞技的内容(eSports-content)*/
+.eSports-content{width: 1100px;height: 570px;margin: 0 auto;}
+.eSports-content-left{float: left;width: 540px;height: 570px;}
+.eSports-content-left-header{width: 540px;height: 50px;background: #7095ee;line-height: 50PX;color: white;}
+.eSports-content-left-header h3{float: left;margin-left: 20px;}
+.eSports-content-left-header ul{float: right;list-style: none;margin-right: 20px;}
+.eSports-content-left-header ul li{float: left;float: left;margin-left: 30px;cursor: pointer;height: 38px;}
+.eSports-content-left-top-pic{width: 540px;height: 260px;}
+.eSports-content-left-top-pic img{width: 540px;height: 260px;}
+.eSports-content-left-bottom-ul{width: 540px;height: 260px;}
+.eSports-content-left-bottom-ul li{width: 180px;height: 260px;box-sizing: border-box;padding: 10px 10px 0px 10px;list-style: none;float: left;background: #fff;}
+.eSports-content-left-bottom-ul li img{width: 160px;height: 160px;}
+.eSports-content-left-bottom-pic-ware-name{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin: 10px 0px;}
+.eSports-content-left-bottom-pic-ware-price{color: #f33;}
+.eSports-content-right{float: right;width: 540px;height: 570px;background: #00A383;}
+.eSports-content-right-header{width: 540px;height: 50px;background: #9b74e9;line-height: 50PX;color: white;}
+.eSports-content-right-header h3{margin-left: 20px;}
+.eSports-content-right-ul li{list-style: none;float: left;width: 180px;height: 260px;box-sizing: border-box;padding: 10px 10px 0px 10px;background: #fff;}
+.eSports-content-right-ul li img{width: 160px;height: 160px;}
+.eSports-content-right-pic-ware-name{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin: 10px 0px;}
+.eSports-content-right-pic-ware-price{color: #f33;}
+
+
+/*家电优选(HomeAppliance)*/
+/*家电优选的头部(HomeAppliance-header)*/
+.wrapper-HomeAppliance-header{width: 100%;}
+.HomeAppliance-header{width: 1100px;height: 40px;padding: 40px 0px 10px 0px;margin: 0 auto;}
+.HomeAppliance-header-ico{width: 40px;height: 40px;float: left;background: url(../img/zol-home-icons.png) no-repeat;background-position: -138px -388px;}
+.HomeAppliance-header-text{font-size: 25px;font-weight: 400;float: left;}
+
+/*家电优选的内容(HomeAppliance-content)*/
+.HomeAppliance-content{width: 1100px;height: 570px;margin: 0 auto;}
+.HomeAppliance-content-left{float: left;width: 540px;height: 570px;}
+.HomeAppliance-content-left-top-pic img,.HomeAppliance-content-left-top-pic{width: 540px;height: 392px;}
+.HomeAppliance-content-left-top-pic a{display:inline-block;width: 540px;height: 392px;}
+.HomeAppliance-content-left-bottom-ul li{width: 132px;height: 85px;list-style: none;float: left;box-sizing: border-box;padding: 12.5px 7.5px;background: #fff;margin-top: 4px;}
+.HomeAppliance-content-left-bottom-ul li img{width: 120px;height: 60px;}
+.HomeAppliance-content-left-bottom-ul span{float: left;width: 4px;height: 85px;}
+.HomeAppliance-content-right{float: right;width: 540px;height: 570px;}
+.HomeAppliance-content-right-header{width: 540px;height: 50px;background: #e78c94;line-height: 50PX;color: white;box-sizing: border-box;padding: 0px 20px;}
+.HomeAppliance-content-right-header-ul{float: right;}
+.HomeAppliance-content-right-header-ul li{float: left;list-style: none;margin-left: 20px;height: 38px;cursor: pointer;}
+.HomeAppliance-content-right-content-ul li{list-style: none;float: left;width: 180px;height: 260px;box-sizing: border-box;padding: 10px 10px 0px 10px;background: #fff;}
+.HomeAppliance-content-right-content-ul li img{width: 160px;height: 160px;}
+.HomeAppliance-content-right-colorTV-ware-name{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin: 10px 0px;}
+.HomeAppliance-content-right-colorTV-ware-price{color: #f33;}
+
+/*数码潮品(DV)*/
+/*数码潮品的头部(DV-header)*/
+.DV-header{width: 1100px;height: 40px;padding: 40px 0px 10px 0px;margin: 0 auto;}
+.DV-header-ico{width: 40px;height: 40px;float: left;background: url(../img/zol-home-icons.png) no-repeat;background-position: -140px -210px;}
+.DV-header-text{font-size: 25px;font-weight: 400;float: left;}
+.DV-header span{color: #999;line-height: 40px;margin-left: 10px;}
+
+/*数码潮品的内容(DV-content)*/
+.wrapper-DV-content{width: 1100px;height: 660px;margin: 0 auto;}
+.DV-content-left{float: left;width: 540px;height: 660px;}
+.DV-content-left-header{width: 540px;height: 50px;background: #3ccbbc;line-height: 50px;color: white;box-sizing: border-box;padding: 0px 20px;}
+.DV-content-left-header h3{float: left;}
+.DV-lfet-header-right{float: right;width: 53px;height: 21px;position: relative;}
+.DV-lfet-header-right a{color: white;}
+.DV-content-left-header-ico{width: 20px;height: 20px;background: silver;background: url(../img/zol-home-icons.png) no-repeat;background-position: 100% -284px;position: absolute;left: 33px;top: 13px;}
+.DV-content-left-content-top-ul li{list-style: none;float: left;width: 180px;height: 260px;box-sizing: border-box;padding: 10px 10px 0px 10px;background: #fff;}
+.DV-content-left-content-top-ul li img{width: 160px;height: 160px;}
+.DV-content-left-content-ware-name{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin: 10px 0px;}
+.DV-content-left-content-ware-price{color: #f33;}
+.DV-content-left-content-bottom-ul li{width: 132px;height: 85px;list-style: none;float: left;box-sizing: border-box;padding: 12.5px 7.5px;background: #fff;margin-top: 4px;}
+.DV-content-left-content-bottom-ul li img{width: 120px;height: 60px;}
+.DV-content-left-content-bottom-ul span{float: left;width: 4px;height: 85px;}
+.DV-content-right{float: right;width: 540px;height: 660px;}
+.DV-content-right-header{width: 540px;height: 50px;background: #eb9e74;line-height: 50px;color: white;box-sizing: border-box;padding: 0px 20px;}
+.DV-content-right-header h3{float: left;}
+.DV-right-header-right{float: right;width: 53px;height: 21px;position: relative;}
+.DV-right-header-right a{color: white;}
+.DV-content-right-header-ico{width: 20px;height: 20px;background: silver;background: url(../img/zol-home-icons.png) no-repeat;background-position: 100% -284px;position: absolute;left: 33px;top: 13px;}
+.DV-content-right-content-top-ul li{list-style: none;float: left;width: 180px;height: 260px;box-sizing: border-box;padding: 10px 10px 0px 10px;background: #fff;}
+.DV-content-right-content-top-ul li img{width: 160px;height: 160px;}
+.DV-content-right-content-ware-name{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin: 10px 0px;}
+.DV-content-right-content-ware-price{color: #f33;}
+.DV-content-right-content-bottom-ul li{width: 132px;height: 85px;list-style: none;float: left;box-sizing: border-box;padding: 12.5px 7.5px;background: #fff;margin-top: 4px;}
+.DV-content-right-content-bottom-ul li img{width: 120px;height: 60px;}
+.DV-content-right-content-bottom-ul span{float: left;width: 4px;height: 85px;}
+
+/*本周热销(thisWeek)*/
+/*本周热销的头部(thisWeek-header)*/
+.thisWeek-header{width: 1100px;height: 94px;margin: 0 auto;background: url(../img/digital-3c_hd.png) repeat-x left center;;line-height: 94px;text-align: center;}
+.thisWeek-header p{font-size: 26px;width: 120px;height: 94px;background: #f7f7f7;margin: 0 auto;padding: 0px 20px;}
+
+/*本周热销的内容(thisWeek-content)*/
+.thisWeek-content{width: 1100px;height: 650px;margin: 0 auto;}
+.thisWeek-content-ul li{list-style: none;float: left;padding: 20px 8px;background: #fff;width: 216px;height: 300px;box-sizing: border-box;margin-top: 5px;}
+.thisWeek-content-ul img{width: 200px;height: 200px;cursor: pointer;}
+.thisWeek-content-ul span{width: 5px;height: 200px;float: left;}
+.thisWeek-content-ware-name{width: 180px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin: 10px 0px 10px 15px;cursor: pointer;}
+.thisWeek-content-ware-price{width: 200px;margin-left: 15px;color: red;}
+
+/*页面底部的服务(footer-service)(先行赔付·正品保证·无忧退换·发票保保障·快递包邮·急速发货)*/
+.footer-service-content{width: 1100px;height: 100px;margin: 0 auto;padding: 25px 0px;box-sizing: border-box;}
+.footer-service-content li{list-style: none;float: left;width: 183px;height: 50px;cursor: pointer;}
+.footer-service-content-ico1{width: 50px;height: 50px;background: #8B008B;background: url(../img/service-bg.png) no-repeat;background-position: 0px 0px;float: left;padding-right: 4px;}
+.footer-service-content-ico2{width: 50px;height: 50px;background: #8B008B;background: url(../img/service-bg.png) no-repeat;background-position: 0px -52px;float: left;padding-right: 4px;}
+.footer-service-content-ico3{width: 50px;height: 50px;background: #8B008B;background: url(../img/service-bg.png) no-repeat;background-position: 0px -104px;float: left;padding-right: 4px;}
+.footer-service-content-ico4{width: 50px;height: 50px;background: #8B008B;background: url(../img/service-bg.png) no-repeat;background-position: 0px -156px;float: left;padding-right: 4px;}
+.footer-service-content-ico5{width: 50px;height: 50px;background: #8B008B;background: url(../img/service-bg.png) no-repeat;background-position: 0px -208px;float: left;padding-right: 4px;}
+.footer-service-content-ico6{width: 50px;height: 50px;background: #8B008B;background: url(../img/service-bg.png) no-repeat;background-position: 0px -260px;float: left;padding-right: 4px;}
+.footer-service-content li span{font-size: 13px;}
+.footer-service-content li p{font-size: 18px;}
+
+/*楼层跳转*/
+
+.floor-content{position: fixed;top:90px;left:50%;margin-left: -670px;display: none;}
+.floor-content ul{float: left;}
+.floor-content li{width: 90px;height: 40px;background: #a19999;text-align: center;line-height: 40px;list-style: none;border-bottom: 1px solid #f7f7f7;color: white;cursor: pointer;}
+.floor-content ul>li:nth-child(9){background: #5d4949;}
+
+/*固定头部*/
+.wrapper-fixedHead{background: white;width: 100%;height: 50px;position: fixed;top: -50px;z-index: 999;}
+.fixedHead-content{width: 1100px;height: 50px;margin: 0 auto;padding: 5px 0px 5px 0px;background: white;box-sizing: border-box;z-index: 999;}
+.fixedHead-logo{width: 110px;height: 40px;float: left;}
+.fixedHead-logo img{width: 110px;height: 40px;}
+.fixedHead-city{float: left;margin: 0px 60px 0px 40px;position: relative;z-index: 5;margin-top:10px;}
+.fixedHead-nationwide{border: 1px solid gainsboro;padding: 5px 20px 5px 10px;position: relative;z-index: 3;background: #fff;}
+.fixedHead-city-ico{display:inline-block;width: 7px;height: 4px;background: yellow;position: absolute;right: 10px;top: 10px;background: url(../img/topbar_ico.png) no-repeat;background-position: 0px -45px;z-index: 5;}
+.fixedHead-city-ul{position: absolute;left:0px;top: 25px;width: 160px;border: 1px solid gainsboro;padding-top: 10px;background: #fff;z-index: 2;display: none;}
+.fixedHead-city-ul li{list-style: none;float: left;height: 26px;padding: 2px 10px;}
+.wrapper-fixedHead-search{float: left;width:400px;height: 30px;border: 2px solid red;margin-top: 3px;line-height: 25px;position: relative;}
+.fixedHead-search-input{width: 390px;margin-left: 10px;border: 0px;outline: none;}
+.fixedHead-search-btn{width: 50px;height: 30px;background: red;border: 0px;outline: none;position: absolute;right: 0px;top:0px;color: white;cursor: pointer;}
+.fixedHead-right{float: right;}
+.fixedHead-right a{display:inline-block;margin-left: 50px;position: relative;margin-top: 8px;}
+.fixedHead-order-ico{display:inline-block;width: 30px;height: 22px;background: yellow;position: absolute;left: -35px;background: url(../img/head.png) no-repeat;background-position: 10px -166px;}
+.fixedHead-order:hover .fixedHead-order-ico{background-position: -20px -166px;}
+.fixedHead-coupon-ico{display:inline-block;width: 30px;height: 22px;background: yellow;position: absolute;left: -30px;background: url(../img/head.png) no-repeat;background-position: 4px -189px;}
+.fixedHead-coupon:hover .fixedHead-coupon-ico{background-position: -24px -189px;}
+.fixedHead-car-ico{display:inline-block;width: 30px;height: 22px;background: yellow;position: absolute;left: -35px;background: url(../img/head.png) no-repeat;background-position: 10px -209px;}
+.fixedHead-car:hover .fixedHead-car-ico{background-position: -22px -209px;}

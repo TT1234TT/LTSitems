@@ -1,0 +1,26 @@
+[
+	{"pagepid":"brand1001","fixationImgsrc":"img/dealBigimg0.jpg","moveImgsrc":"img/dealBigimg0.jpg",
+	"thumbnail1":"img/dealBigimg0.jpg","thumbnail2":"img/dealBigimg1.jpg","thumbnail3":"img/dealBigimg2.jpg","thumbnail4":"img/dealBigimg3.jpg","thumbnail5":"img/dealBigimg4.jpg",
+	"dealTitle":"王俊凯戴尔DELL游匣G3 15.6英寸游戏本电脑 i5-8300H 8G 1TB+128GB 6G","dealTitleSpan":"【GTX1060 6G独显】\\\"吃鸡\\\"利器瞄准游戏本，游匣爆款推荐",
+	"dealWarePrice":"7499.00","dealWareColor1":"蓝色","dealWareSuitInfor":"王俊凯戴尔DELL游匣G3 15.6英寸游戏本电脑 i5-8300H 8G 1TB+128GB 6G",
+	"dealWareColor":["蓝色","黑色","粉色","绿色"]
+	},
+	{"pagepid":"brand1002","fixationImgsrc":"img/dealBigTwoimg0.jpg","moveImgsrc":"img/dealBigTwoimg0.jpg",
+	"thumbnail1":"img/dealBigTwoimg0.jpg","thumbnail2":"img/dealBigTwoimg1.jpg","thumbnail3":"img/dealBigTwoimg2.jpg","thumbnail4":"img/dealBigTwoimg3.jpg","thumbnail5":"img/dealBigTwoimg4.jpg",
+	"dealTitle":"戴尔（DELL）游匣G7 intel i7 8750H 16G 128GB+1TB15.6英寸游戏本","dealTitleSpan":"Intel i7 8750H丨GTX1060 MaxQ 6G独显 IPS屏丨流畅吃鸡丨",
+	"dealWarePrice":"9999.00","dealWareColor1":"黑色","dealWareSuitInfor":"王俊凯戴尔DELL游匣G7 intel i7 8750H 16G 128GB+1TB15.6英寸游戏本",
+	"dealWareColor":["蓝色","黑色","粉色","绿色"]
+	},
+	{"pagepid":"brand1003","fixationImgsrc":"img/dealBigThreeimg0.jpg","moveImgsrc":"img/dealBigThreeimg0.jpg",
+	"thumbnail1":"img/dealBigThreeimg0.jpg","thumbnail2":"img/dealBigThreeimg1.jpg","thumbnail3":"img/dealBigThreeimg2.jpg","thumbnail4":"img/dealBigThreeimg3.jpg","thumbnail5":"img/dealBigThreeimg4.jpg",
+	"dealTitle":"戴尔（DELL）游匣G3 17.3英寸游戏本（i7-8750H 16G 256G+2T 6G独显","dealTitleSpan":"17.3英寸ips高清屏，GTX1060 MaxQ 6G独显，256G固态+2T双硬盘存储",
+	"dealWarePrice":"9999.00","dealWareColor1":"黑色","dealWareSuitInfor":"王俊凯戴尔 游匣G3 17.3英寸游戏本（i7-8750H 16G 256G+2T 6G独显）",
+	"dealWareColor":["蓝色","白色","黄色"]
+	},
+	{"pagepid":"brand1004","fixationImgsrc":"img/dealBigFourimg0.jpg","moveImgsrc":"img/dealBigFourimg0.jpg",
+	"thumbnail1":"img/dealBigFourimg0.jpg","thumbnail2":"img/dealBigFourimg1.jpg","thumbnail3":"img/dealBigFourimg2.jpg","thumbnail4":"img/dealBigFourimg3.jpg","thumbnail5":"img/dealBigFourimg4.jpg",
+	"dealTitle":"戴尔（DELL）游匣G7 intel i9 8950H 16G 128GB+1TB15.6英寸游戏本","dealTitleSpan":"丨Intel i9 8950H丨GTX1060 MaxQ 6G独显 IPS屏丨流畅吃鸡丨",
+	"dealWarePrice":"11999.00","dealWareColor1":"白色","dealWareSuitInfor":"王俊凯戴尔DELL游匣G7 intel i9 8950H 16G 128GB+1TB15.6英寸游戏本",
+	"dealWareColor":["黑色","橘色"]
+	}
+]
